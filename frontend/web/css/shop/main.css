@@ -1,0 +1,23 @@
+.row {
+    column-gap: 5px;
+}
+
+.container .row .col {
+    border: 1px solid #b8b8b8;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 5px;
+}
+
+.container .row .col .menu-item,
+.container .row .col .list-item {
+    padding: 3px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 8px 5px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 0px 8px 5px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 0px 8px 5px rgba(34, 60, 80, 0.2) inset;
+}

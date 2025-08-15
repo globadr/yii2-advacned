@@ -1,24 +1,21 @@
 <?php
 
-namespace backend\assets;
+namespace frontend\assets;
 
 use yii\web\AssetBundle;
 
-/**
- * Main backend application asset bundle.
- */
-class AppAsset extends AssetBundle
+class ShopAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
+        'css/shop/main.css',
     ];
     public $js = [
+        'js/shop/main.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap5\BootstrapAsset',
-        '\rmrevin\yii\fontawesome\AssetBundle'
     ];
 }
